@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="2591" it="3616" lt="0" ct="0" ts="1538397127181" s="true" lb="Landing Page" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="67714" sby="3898" ng="1" na="1">
+  <httpSample t="2063" it="0" lt="820" ct="764" ts="1538397130783" s="true" lb="1 /" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="58488" sby="3010" ng="1" na="1">
+    <httpSample t="820" it="0" lt="820" ct="764" ts="1538397130783" s="true" lb="1 /-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1222" sby="390" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <httpSample t="101" it="0" lt="99" ct="44" ts="1538397131608" s="true" lb="1 /-1" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1397" sby="414" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?ReturnUrl=%2F</java.net.URL>
+    </httpSample>
+    <httpSample t="524" it="0" lt="516" ct="83" ts="1538397131795" s="true" lb="1 /-2" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="41460" sby="512" ng="1" na="1">
+      <java.net.URL>https://aurea51.manuscript.com/?pg=pgAlternateAppLogonCheck&amp;sRedirectAlternateApp=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3d%252F</java.net.URL>
+    </httpSample>
+    <httpSample t="75" it="0" lt="75" ct="51" ts="1538397132324" s="true" lb="1 /-3" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1138" sby="568" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?ReturnUrl=%2F&amp;fbc=c1VuaXF1ZUlECTIwMTgxMDAxMTIzMjEyLTM1LjE2OC4yNy40Mi03MGpkbmgyYTRzCTEwLzAxLzIwMjggMTI6MzI6MTIK</java.net.URL>
+    </httpSample>
+    <httpSample t="226" it="0" lt="225" ct="119" ts="1538397132400" s="true" lb="1 /-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3890" sby="473" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?ReturnUrl=/&amp;nr=</java.net.URL>
+    </httpSample>
+    <httpSample t="149" it="0" lt="148" ct="58" ts="1538397132697" s="true" lb="1 /-5" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9381" sby="653" ng="1" na="1">
+      <httpSample t="149" it="0" lt="148" ct="58" ts="1538397132697" s="true" lb="1 /-0" rc="200" rm="OK" tn="" dt="text" by="9381" sby="653" ng="0" na="0">
+        <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+      </httpSample>
+      <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?ReturnUrl=/&amp;nr=</java.net.URL>
+  </httpSample>
+  <httpSample t="528" it="0" lt="528" ct="40" ts="1538397132859" s="true" lb="2 /Login/Kiln" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9226" sby="888" ng="1" na="1">
+    <httpSample t="528" it="0" lt="528" ct="40" ts="1538397132859" s="true" lb="2 /Login/Kiln-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9226" sby="888" ng="1" na="1">
+      <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%253a%252f%252faurea51.kilnhg.com%252f&amp;destFailure=https%253a%252f%252faurea51.kilnhg.com%252fAuth%252fLogOn%253fReturnUrl%253dhttps%25253a%25252f%25252faurea51.kilnhg.com%25252f%2526fFailure%253d1</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%253a%252f%252faurea51.kilnhg.com%252f&amp;destFailure=https%253a%252f%252faurea51.kilnhg.com%252fAuth%252fLogOn%253fReturnUrl%253dhttps%25253a%25252f%25252faurea51.kilnhg.com%25252f%2526fFailure%253d1</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1778" it="4554" lt="0" ct="0" ts="1538397133396" s="true" lb="Login &amp; Home Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="33389" sby="3382" ng="1" na="1">
+  <httpSample t="1778" it="0" lt="314" ct="120" ts="1538397137912" s="true" lb="3 /auth/password" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="33389" sby="3382" ng="1" na="1">
+    <httpSample t="322" it="0" lt="314" ct="120" ts="1538397137912" s="true" lb="3 /auth/password-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="21905" sby="1339" ng="1" na="1">
+      <java.net.URL>https://aurea51.manuscript.com/auth/password</java.net.URL>
+    </httpSample>
+    <httpSample t="65" it="0" lt="64" ct="39" ts="1538397138236" s="true" lb="3 /auth/password-1" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1160" sby="1241" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/?fbc=c1VuaXF1ZUlECTIwMTgxMDAxMTIzMjEyLTM1LjE2OC4yNy40Mi03MGpkbmgyYTRzCTAxLzAxLzAwMDEgMDA6MDA6MDAKX19SZXF1ZXN0VmVyaWZpY2F0aW9uVG9rZW4JMlZOZ3JkSWpZSnAzb0NHcU9hSm1jVkJZVjliSGVlVEdwRVlHTWItaEZuSEl4Q0FOazZsR29ncG1TZlREZ1VhWmlXTG9WZWotdUVyclpwSUVzWGFKelJ0anVtTGhRNGlwTzVwTGs1MUduV1ExCTAxLzAxLzAwMDEgMDA6MDA6MDAKZmJUb2tlbglkbzA3cDBwYzc5ODBmcGNocm9vcjAyM2pkcTAycnYJMDEvMDEvMDAwMSAwMDowMDowMAptYW51c2NyaXB0U2l0ZUhpc3RvcnkJWyJhdXJlYTUxLm1hbnVzY3JpcHQuY29tIl0JMTAvMDEvMjAxOSAxMjozMjoxOAo%3D</java.net.URL>
+    </httpSample>
+    <httpSample t="1389" it="0" lt="1388" ct="54" ts="1538397138301" s="true" lb="3 /auth/password-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="10324" sby="802" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="623" it="1570" lt="0" ct="0" ts="1538397139729" s="true" lb="Click Project Link" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="10125" sby="1563" ng="1" na="1">
+  <httpSample t="208" it="0" lt="207" ct="57" ts="1538397141278" s="true" lb="4 /Admin/Projects" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7964" sby="807" ng="1" na="1">
+    <httpSample t="208" it="0" lt="207" ct="57" ts="1538397141278" s="true" lb="4 /Admin/Projects-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7964" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Admin/Projects</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Admin/Projects</java.net.URL>
+  </httpSample>
+  <httpSample t="415" it="0" lt="414" ct="45" ts="1538397141492" s="true" lb="5 /Review/Menu?_=1537516730436" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="756" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537516730436</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="173" it="5167" lt="0" ct="0" ts="1538397141923" s="true" lb="Save the project" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="555" sby="1046" ng="1" na="1">
+  <httpSample t="173" it="0" lt="173" ct="46" ts="1538397147016" s="true" lb="6 /Admin/Create" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="555" sby="1046" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Admin/Create</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="3560" it="4571" lt="0" ct="0" ts="1538397147264" s="true" lb="Navigate to project Page" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="14680" sby="2644" ng="1" na="1">
+  <httpSample t="173" it="0" lt="172" ct="39" ts="1538397151817" s="true" lb="7 /Code/Project160319811329" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13626" sby="839" ng="1" na="1">
+    <httpSample t="173" it="0" lt="172" ct="39" ts="1538397151817" s="true" lb="7 /Code/Project160319811329-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13626" sby="839" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356</java.net.URL>
+  </httpSample>
+  <httpSample t="183" it="0" lt="183" ct="39" ts="1538397152006" s="true" lb="8 /Project/Project160319811329/Model" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="608" sby="897" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Project/Project01102018123212857356/Model?fkey=41cf05723922bfab069f140c444c3a7750bf89da7cb626f677bf4ca13b511a5f-bp4fccem2naejrvk0qvmt0e4ko58au&amp;_=1537516838843</java.net.URL>
+  </httpSample>
+  <httpSample t="3204" it="0" lt="3203" ct="3046" ts="1538397152191" s="true" lb="9 /Project/Project160319811329/PageNeedsRefresh" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="446" sby="908" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Project/Project01102018123212857356/PageNeedsRefresh?fkey=41cf05723922bfab069f140c444c3a7750bf89da7cb626f677bf4ca13b511a5f-bp4fccem2naejrvk0qvmt0e4ko58au&amp;_=1537516839783</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="519" it="2084" lt="0" ct="0" ts="1538397155397" s="true" lb="Save the New repo" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="1350" sby="1955" ng="1" na="1">
+  <httpSample t="331" it="0" lt="331" ct="38" ts="1538397157479" s="true" lb="10 /Admin/Repos/Create" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="965" sby="1066" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Admin/Repos/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="188" it="0" lt="188" ct="151" ts="1538397157812" s="true" lb="11 /Admin/Repos/IsReady" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="385" sby="889" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Admin/Repos/IsReady?ixRepo=477512&amp;fkey=12e77f70c56272da6ff009ab2419d41587313fe4eb3416e7d57d5b5b49da822e-k7sik51smtj9ge4r4o2491162mkjj4&amp;_=1537516897251</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1160" it="0" lt="0" ct="0" ts="1538397158390" s="true" lb="12 Clone Repo local" rc="0" rm="OK" tn="Thread Group 1-1" dt="text" by="161" sby="0" ng="1" na="1"/>
+<sample t="32" it="0" lt="0" ct="0" ts="1538397163095" s="true" lb="13 Copy New Artifacts to repo" rc="4" rm="OK" tn="Thread Group 1-1" dt="text" by="176" sby="0" ng="1" na="1"/>
+<sample t="151" it="0" lt="0" ct="0" ts="1538397166888" s="true" lb="14 Execute Add command" rc="1" rm="OK" tn="Thread Group 1-1" dt="text" by="49" sby="0" ng="1" na="1"/>
+<sample t="155" it="0" lt="0" ct="0" ts="1538397171439" s="true" lb="15 Execute Commit Command" rc="1" rm="OK" tn="Thread Group 1-1" dt="text" by="16" sby="0" ng="1" na="1"/>
+<sample t="1037" it="0" lt="0" ct="0" ts="1538397173228" s="true" lb="16 Push Repo to origin" rc="1" rm="OK" tn="Thread Group 1-1" dt="text" by="160" sby="0" ng="1" na="1"/>
+<sample t="520" it="4223" lt="0" ct="0" ts="1538397174265" s="true" lb="Navigate to Activity Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="9960" sby="807" ng="1" na="1">
+  <httpSample t="520" it="0" lt="518" ct="53" ts="1538397178468" s="true" lb="17 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9960" sby="807" ng="1" na="1">
+    <httpSample t="520" it="0" lt="518" ct="53" ts="1538397178468" s="true" lb="17 /Review/Menu-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9960" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1359" it="2737" lt="0" ct="0" ts="1538397179009" s="true" lb="Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="14910" sby="4384" ng="1" na="1">
+  <httpSample t="195" it="0" lt="193" ct="38" ts="1538397181728" s="true" lb="18 /Search" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9022" sby="823" ng="1" na="1">
+    <httpSample t="195" it="0" lt="193" ct="38" ts="1538397181728" s="true" lb="18 /Search-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9022" sby="823" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionAttributeFixture&amp;ixProject=&amp;ixRepo=</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionAttributeFixture&amp;ixProject=&amp;ixRepo=</java.net.URL>
+  </httpSample>
+  <httpSample t="212" it="0" lt="211" ct="38" ts="1538397181927" s="true" lb="19 /Search/Ajax" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1533" sby="893" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax?sQuery=ActionAttributeFixture&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562804</java.net.URL>
+  </httpSample>
+  <httpSample t="257" it="0" lt="256" ct="95" ts="1538397182143" s="true" lb="20 /Search/Ajax/Counts" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="475" sby="900" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Counts?sQuery=ActionAttributeFixture&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562831</java.net.URL>
+  </httpSample>
+  <httpSample t="311" it="0" lt="311" ct="37" ts="1538397182401" s="true" lb="21 /Search/Ajax/Highlights" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1719" sby="935" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Highlights?sQuery=ActionAttributeFixture&amp;sHighlight=kiln-Search%2FAjax-o6g7m6h6r5oi5tk8fovm51t8v11c7e&amp;_=1537964563815</java.net.URL>
+  </httpSample>
+  <httpSample t="384" it="0" lt="384" ct="37" ts="1538397182713" s="true" lb="22 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="833" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537964563637</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1016" it="16076" lt="0" ct="0" ts="1538397183106" s="true" lb="Navigate to HistoryPage" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12318" sby="2521" ng="1" na="1">
+  <httpSample t="183" it="0" lt="183" ct="42" ts="1538397196375" s="true" lb="23 Dashboard/Poll" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="457" sby="853" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Dashboard/Poll/105442?fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;_=1538123136525</java.net.URL>
+  </httpSample>
+  <httpSample t="248" it="0" lt="247" ct="40" ts="1538397196717" s="true" lb="24 /Code/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9700" sby="856" ng="1" na="1">
+    <httpSample t="248" it="0" lt="247" ct="40" ts="1538397196717" s="true" lb="24 /Code/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9700" sby="856" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+  </httpSample>
+  <httpSample t="585" it="0" lt="584" ct="113" ts="1538397199606" s="true" lb="25 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538123139314</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="599" it="24181" lt="0" ct="0" ts="1538397200199" s="true" lb="Click Review Button" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="5062" sby="2796" ng="1" na="1">
+  <httpSample t="366" it="0" lt="365" ct="48" ts="1538397220202" s="true" lb="26 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064069389</java.net.URL>
+  </httpSample>
+  <httpSample t="114" it="0" lt="114" ct="38" ts="1538397223882" s="true" lb="27 /GetReviewControls" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2226" sby="1038" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetReviewControls</java.net.URL>
+  </httpSample>
+  <httpSample t="119" it="0" lt="119" ct="39" ts="1538397224859" s="true" lb="28 /Review/OpenReviews" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="675" sby="946" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="2173" it="10014" lt="0" ct="0" ts="1538397224979" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12049" sby="2890" ng="1" na="1">
+  <httpSample t="1313" it="0" lt="1303" ct="37" ts="1538397233473" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4843" sby="1191" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="379" it="0" lt="243" ct="41" ts="1538397235960" s="false" lb="30 /GetChangesetReviewsMenuLink" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="5045" sby="887" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetChangesetReviewsMenuLink?sPage=history&amp;vcs=Hg&amp;sId=%24%7Bd_ReviewChangeSet%7D&amp;ixRepo=477512&amp;_=1538064149081</java.net.URL>
+  </httpSample>
+  <httpSample t="481" it="0" lt="480" ct="36" ts="1538397236676" s="true" lb="31 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064149416</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="519" it="3918" lt="0" ct="0" ts="1538397237167" s="true" lb="Navigate to Activity Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="9969" sby="807" ng="1" na="1">
+  <httpSample t="519" it="0" lt="518" ct="39" ts="1538397241070" s="true" lb="17 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9969" sby="807" ng="1" na="1">
+    <httpSample t="519" it="0" lt="518" ct="39" ts="1538397241070" s="true" lb="17 /Review/Menu-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9969" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1490" it="4869" lt="0" ct="0" ts="1538397241605" s="true" lb="Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="14473" sby="4376" ng="1" na="1">
+  <httpSample t="223" it="0" lt="222" ct="36" ts="1538397246460" s="true" lb="18 /Search" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9018" sby="821" ng="1" na="1">
+    <httpSample t="223" it="0" lt="222" ct="36" ts="1538397246460" s="true" lb="18 /Search-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9018" sby="821" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionAttributeTests&amp;ixProject=&amp;ixRepo=</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionAttributeTests&amp;ixProject=&amp;ixRepo=</java.net.URL>
+  </httpSample>
+  <httpSample t="204" it="0" lt="203" ct="37" ts="1538397246686" s="true" lb="19 /Search/Ajax" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1468" sby="891" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax?sQuery=ActionAttributeTests&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562804</java.net.URL>
+  </httpSample>
+  <httpSample t="328" it="0" lt="328" ct="36" ts="1538397246893" s="true" lb="20 /Search/Ajax/Counts" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="477" sby="898" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Counts?sQuery=ActionAttributeTests&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562831</java.net.URL>
+  </httpSample>
+  <httpSample t="278" it="0" lt="277" ct="37" ts="1538397247222" s="true" lb="21 /Search/Ajax/Highlights" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1349" sby="933" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Highlights?sQuery=ActionAttributeTests&amp;sHighlight=kiln-Search%2FAjax-5raerb92ml93ubqn5960ed02k9ec38&amp;_=1537964563815</java.net.URL>
+  </httpSample>
+  <httpSample t="457" it="0" lt="457" ct="38" ts="1538397247501" s="true" lb="22 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="833" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537964563637</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="965" it="16071" lt="0" ct="0" ts="1538397247965" s="true" lb="Navigate to HistoryPage" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12325" sby="2521" ng="1" na="1">
+  <httpSample t="148" it="0" lt="147" ct="42" ts="1538397261233" s="true" lb="23 Dashboard/Poll" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="457" sby="853" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Dashboard/Poll/105442?fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;_=1538123136525</java.net.URL>
+  </httpSample>
+  <httpSample t="265" it="0" lt="264" ct="40" ts="1538397261539" s="true" lb="24 /Code/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9707" sby="856" ng="1" na="1">
+    <httpSample t="265" it="0" lt="264" ct="40" ts="1538397261539" s="true" lb="24 /Code/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9707" sby="856" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+  </httpSample>
+  <httpSample t="552" it="0" lt="551" ct="41" ts="1538397264443" s="true" lb="25 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538123139314</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="616" it="24181" lt="0" ct="0" ts="1538397265002" s="true" lb="Click Review Button" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="5063" sby="2796" ng="1" na="1">
+  <httpSample t="292" it="0" lt="292" ct="39" ts="1538397285007" s="true" lb="26 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064069389</java.net.URL>
+  </httpSample>
+  <httpSample t="147" it="0" lt="147" ct="36" ts="1538397288611" s="true" lb="27 /GetReviewControls" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2227" sby="1038" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetReviewControls</java.net.URL>
+  </httpSample>
+  <httpSample t="177" it="0" lt="177" ct="35" ts="1538397289622" s="true" lb="28 /Review/OpenReviews" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="675" sby="946" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="920" it="10009" lt="0" ct="0" ts="1538397289800" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+  <httpSample t="260" it="0" lt="260" ct="38" ts="1538397298294" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="238" it="0" lt="104" ct="37" ts="1538397299726" s="false" lb="30 /GetChangesetReviewsMenuLink" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="5045" sby="887" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetChangesetReviewsMenuLink?sPage=history&amp;vcs=Hg&amp;sId=%24%7Bd_ReviewChangeSet%7D&amp;ixRepo=477512&amp;_=1538064149081</java.net.URL>
+  </httpSample>
+  <httpSample t="422" it="0" lt="422" ct="40" ts="1538397300301" s="true" lb="31 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064149416</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1041" it="2527" lt="0" ct="0" ts="1538397300729" s="true" lb="Navigate to Activity Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="9963" sby="807" ng="1" na="1">
+  <httpSample t="1041" it="0" lt="1040" ct="40" ts="1538397303246" s="true" lb="17 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9963" sby="807" ng="1" na="1">
+    <httpSample t="1041" it="0" lt="1040" ct="40" ts="1538397303246" s="true" lb="17 /Review/Menu-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9963" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1781" it="3321" lt="0" ct="0" ts="1538397304297" s="true" lb="Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="15929" sby="4348" ng="1" na="1">
+  <httpSample t="167" it="0" lt="166" ct="38" ts="1538397307603" s="true" lb="18 /Search" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8997" sby="814" ng="1" na="1">
+    <httpSample t="167" it="0" lt="166" ct="38" ts="1538397307603" s="true" lb="18 /Search-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8997" sby="814" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionTargets&amp;ixProject=&amp;ixRepo=</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Search?search=ActionTargets&amp;ixProject=&amp;ixRepo=</java.net.URL>
+  </httpSample>
+  <httpSample t="334" it="0" lt="333" ct="118" ts="1538397307772" s="true" lb="19 /Search/Ajax" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2063" sby="884" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax?sQuery=ActionTargets&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562804</java.net.URL>
+  </httpSample>
+  <httpSample t="280" it="0" lt="279" ct="36" ts="1538397308110" s="true" lb="20 /Search/Ajax/Counts" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="477" sby="891" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Counts?sQuery=ActionTargets&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562831</java.net.URL>
+  </httpSample>
+  <httpSample t="366" it="0" lt="365" ct="40" ts="1538397308391" s="true" lb="21 /Search/Ajax/Highlights" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2231" sby="926" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Highlights?sQuery=ActionTargets&amp;sHighlight=kiln-Search%2FAjax-pb9jloc491ilt5ktbrrjoaarnm3tcf&amp;_=1537964563815</java.net.URL>
+  </httpSample>
+  <httpSample t="634" it="0" lt="634" ct="47" ts="1538397308758" s="true" lb="22 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="833" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537964563637</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="797" it="16072" lt="0" ct="0" ts="1538397309399" s="true" lb="Navigate to HistoryPage" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12327" sby="2521" ng="1" na="1">
+  <httpSample t="181" it="0" lt="180" ct="36" ts="1538397322669" s="true" lb="23 Dashboard/Poll" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="457" sby="853" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Dashboard/Poll/105442?fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;_=1538123136525</java.net.URL>
+  </httpSample>
+  <httpSample t="224" it="0" lt="224" ct="46" ts="1538397323008" s="true" lb="24 /Code/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9709" sby="856" ng="1" na="1">
+    <httpSample t="224" it="0" lt="224" ct="46" ts="1538397323008" s="true" lb="24 /Code/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9709" sby="856" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+  </httpSample>
+  <httpSample t="392" it="0" lt="392" ct="48" ts="1538397325871" s="true" lb="25 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538123139314</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="731" it="24179" lt="0" ct="0" ts="1538397326269" s="true" lb="Click Review Button" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="5065" sby="2796" ng="1" na="1">
+  <httpSample t="363" it="0" lt="363" ct="45" ts="1538397346273" s="true" lb="26 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064069389</java.net.URL>
+  </httpSample>
+  <httpSample t="120" it="0" lt="119" ct="37" ts="1538397349947" s="true" lb="27 /GetReviewControls" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2229" sby="1038" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetReviewControls</java.net.URL>
+  </httpSample>
+  <httpSample t="248" it="0" lt="248" ct="36" ts="1538397350930" s="true" lb="28 /Review/OpenReviews" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="675" sby="946" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1031" it="10008" lt="0" ct="0" ts="1538397351179" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+  <httpSample t="346" it="0" lt="346" ct="50" ts="1538397359673" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="257" it="0" lt="110" ct="38" ts="1538397361192" s="false" lb="30 /GetChangesetReviewsMenuLink" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="5045" sby="887" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetChangesetReviewsMenuLink?sPage=history&amp;vcs=Hg&amp;sId=%24%7Bd_ReviewChangeSet%7D&amp;ixRepo=477512&amp;_=1538064149081</java.net.URL>
+  </httpSample>
+  <httpSample t="428" it="0" lt="427" ct="44" ts="1538397361784" s="true" lb="31 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064149416</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="612" it="5791" lt="0" ct="0" ts="1538397362218" s="true" lb="Navigate to Activity Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="9969" sby="807" ng="1" na="1">
+  <httpSample t="612" it="0" lt="610" ct="36" ts="1538397368000" s="true" lb="17 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9969" sby="807" ng="1" na="1">
+    <httpSample t="612" it="0" lt="610" ct="36" ts="1538397368000" s="true" lb="17 /Review/Menu-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9969" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1492" it="1558" lt="0" ct="0" ts="1538397368622" s="true" lb="Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="14186" sby="4388" ng="1" na="1">
+  <httpSample t="259" it="0" lt="258" ct="38" ts="1538397370168" s="true" lb="18 /Search" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9019" sby="824" ng="1" na="1">
+    <httpSample t="259" it="0" lt="258" ct="38" ts="1538397370168" s="true" lb="18 /Search-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9019" sby="824" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Search?search=AdhocTestExecutionTests&amp;ixProject=&amp;ixRepo=</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Search?search=AdhocTestExecutionTests&amp;ixProject=&amp;ixRepo=</java.net.URL>
+  </httpSample>
+  <httpSample t="230" it="0" lt="230" ct="37" ts="1538397370430" s="true" lb="19 /Search/Ajax" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1498" sby="894" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax?sQuery=AdhocTestExecutionTests&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562804</java.net.URL>
+  </httpSample>
+  <httpSample t="328" it="0" lt="327" ct="40" ts="1538397370662" s="true" lb="20 /Search/Ajax/Counts" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="477" sby="901" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Counts?sQuery=AdhocTestExecutionTests&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562831</java.net.URL>
+  </httpSample>
+  <httpSample t="276" it="0" lt="276" ct="46" ts="1538397370991" s="true" lb="21 /Search/Ajax/Highlights" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1031" sby="936" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Highlights?sQuery=AdhocTestExecutionTests&amp;sHighlight=kiln-Search%2FAjax-aoh6a8aojm6afihimaq69k53gaas0i&amp;_=1537964563815</java.net.URL>
+  </httpSample>
+  <httpSample t="399" it="0" lt="398" ct="43" ts="1538397371268" s="true" lb="22 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="833" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537964563637</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="964" it="16070" lt="0" ct="0" ts="1538397371673" s="true" lb="Navigate to HistoryPage" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12327" sby="2521" ng="1" na="1">
+  <httpSample t="299" it="0" lt="298" ct="45" ts="1538397384942" s="true" lb="23 Dashboard/Poll" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="457" sby="853" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Dashboard/Poll/105442?fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;_=1538123136525</java.net.URL>
+  </httpSample>
+  <httpSample t="239" it="0" lt="238" ct="37" ts="1538397385399" s="true" lb="24 /Code/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9709" sby="856" ng="1" na="1">
+    <httpSample t="239" it="0" lt="238" ct="37" ts="1538397385399" s="true" lb="24 /Code/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9709" sby="856" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+  </httpSample>
+  <httpSample t="426" it="0" lt="426" ct="43" ts="1538397388275" s="true" lb="25 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538123139314</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="998" it="24178" lt="0" ct="0" ts="1538397388707" s="true" lb="Click Review Button" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="5063" sby="2796" ng="1" na="1">
+  <httpSample t="555" it="0" lt="554" ct="118" ts="1538397408712" s="true" lb="26 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064069389</java.net.URL>
+  </httpSample>
+  <httpSample t="186" it="0" lt="186" ct="38" ts="1538397412578" s="true" lb="27 /GetReviewControls" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2227" sby="1038" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetReviewControls</java.net.URL>
+  </httpSample>
+  <httpSample t="257" it="0" lt="257" ct="141" ts="1538397413627" s="true" lb="28 /Review/OpenReviews" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="675" sby="946" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1143" it="10010" lt="0" ct="0" ts="1538397413885" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+  <httpSample t="485" it="0" lt="484" ct="37" ts="1538397422378" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="314" it="0" lt="167" ct="39" ts="1538397424034" s="false" lb="30 /GetChangesetReviewsMenuLink" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="5045" sby="887" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetChangesetReviewsMenuLink?sPage=history&amp;vcs=Hg&amp;sId=%24%7Bd_ReviewChangeSet%7D&amp;ixRepo=477512&amp;_=1538064149081</java.net.URL>
+  </httpSample>
+  <httpSample t="344" it="0" lt="344" ct="35" ts="1538397424684" s="true" lb="31 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064149416</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="527" it="5151" lt="0" ct="0" ts="1538397425038" s="true" lb="Navigate to Activity Page" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="9968" sby="807" ng="1" na="1">
+  <httpSample t="527" it="0" lt="526" ct="40" ts="1538397430180" s="true" lb="17 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9968" sby="807" ng="1" na="1">
+    <httpSample t="527" it="0" lt="526" ct="40" ts="1538397430180" s="true" lb="17 /Review/Menu-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9968" sby="807" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1309" it="3749" lt="0" ct="0" ts="1538397430717" s="true" lb="Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="14436" sby="4384" ng="1" na="1">
+  <httpSample t="128" it="0" lt="127" ct="36" ts="1538397434454" s="true" lb="18 /Search" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9019" sby="823" ng="1" na="1">
+    <httpSample t="128" it="0" lt="127" ct="36" ts="1538397434454" s="true" lb="18 /Search-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9019" sby="823" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Search?search=AfterTestActionCommand&amp;ixProject=&amp;ixRepo=</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Search?search=AfterTestActionCommand&amp;ixProject=&amp;ixRepo=</java.net.URL>
+  </httpSample>
+  <httpSample t="357" it="0" lt="356" ct="38" ts="1538397434585" s="true" lb="19 /Search/Ajax" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1521" sby="893" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax?sQuery=AfterTestActionCommand&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562804</java.net.URL>
+  </httpSample>
+  <httpSample t="145" it="0" lt="145" ct="36" ts="1538397434943" s="true" lb="20 /Search/Ajax/Counts" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="478" sby="900" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Counts?sQuery=AfterTestActionCommand&amp;fAll=false&amp;ixProject=&amp;ixRepo=&amp;_=1537964562831</java.net.URL>
+  </httpSample>
+  <httpSample t="279" it="0" lt="279" ct="37" ts="1538397435089" s="true" lb="21 /Search/Ajax/Highlights" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1257" sby="935" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Search/Ajax/Highlights?sQuery=AfterTestActionCommand&amp;sHighlight=kiln-Search%2FAjax-9qhiltctkgd1nrkfrvkicppa9saok6&amp;_=1537964563815</java.net.URL>
+  </httpSample>
+  <httpSample t="400" it="0" lt="400" ct="72" ts="1538397435369" s="true" lb="22 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="833" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?_=1537964563637</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1079" it="16071" lt="0" ct="0" ts="1538397435775" s="true" lb="Navigate to HistoryPage" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12321" sby="2521" ng="1" na="1">
+  <httpSample t="122" it="0" lt="122" ct="41" ts="1538397449045" s="true" lb="23 Dashboard/Poll" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="457" sby="853" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Dashboard/Poll/105442?fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;_=1538123136525</java.net.URL>
+  </httpSample>
+  <httpSample t="223" it="0" lt="222" ct="36" ts="1538397449326" s="true" lb="24 /Code/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9703" sby="856" ng="1" na="1">
+    <httpSample t="223" it="0" lt="222" ct="36" ts="1538397449326" s="true" lb="24 /Code/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9703" sby="856" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Code/Project01102018123212857356/Group/Repo01102018123212857311</java.net.URL>
+  </httpSample>
+  <httpSample t="734" it="0" lt="734" ct="99" ts="1538397452186" s="true" lb="25 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538123139314</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="3903" it="24178" lt="0" ct="0" ts="1538397452926" s="true" lb="Click Review Button" rc="200" rm="Number of samples in transaction : 3, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="5059" sby="2796" ng="1" na="1">
+  <httpSample t="594" it="0" lt="594" ct="44" ts="1538397472930" s="true" lb="26 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064069389</java.net.URL>
+  </httpSample>
+  <httpSample t="3134" it="0" lt="3133" ct="3036" ts="1538397476836" s="true" lb="27 /GetReviewControls" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2223" sby="1038" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetReviewControls</java.net.URL>
+  </httpSample>
+  <httpSample t="175" it="0" lt="175" ct="42" ts="1538397480832" s="true" lb="28 /Review/OpenReviews" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="675" sby="946" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="851" it="10009" lt="0" ct="0" ts="1538397481008" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+  <httpSample t="296" it="0" lt="292" ct="39" ts="1538397489502" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
+  </httpSample>
+  <httpSample t="252" it="0" lt="93" ct="36" ts="1538397490971" s="false" lb="30 /GetChangesetReviewsMenuLink" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="5045" sby="887" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/GetChangesetReviewsMenuLink?sPage=history&amp;vcs=Hg&amp;sId=%24%7Bd_ReviewChangeSet%7D&amp;ixRepo=477512&amp;_=1538064149081</java.net.URL>
+  </httpSample>
+  <httpSample t="303" it="0" lt="303" ct="38" ts="1538397491559" s="true" lb="31 /Review/Menu" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2161" sby="812" ng="1" na="1">
+    <java.net.URL>https://aurea51.kilnhg.com/Review/Menu?vcs=Hg&amp;_=1538064149416</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1146" it="943" lt="0" ct="0" ts="1538397491869" s="true" lb="Logout" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="66931" sby="5095" ng="1" na="1">
+  <httpSample t="950" it="0" lt="220" ct="133" ts="1538397492811" s="true" lb="32 /Auth/LogOff" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="57718" sby="4205" ng="1" na="1">
+    <httpSample t="220" it="0" lt="220" ct="133" ts="1538397492811" s="true" lb="32 /Auth/LogOff-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1190" sby="828" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOff</java.net.URL>
+    </httpSample>
+    <httpSample t="197" it="0" lt="189" ct="46" ts="1538397493032" s="true" lb="32 /Auth/LogOff-1" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="42249" sby="840" ng="1" na="1">
+      <java.net.URL>https://aurea51.manuscript.com/?pre=preLogOff&amp;sRedirectAlternateApp=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn</java.net.URL>
+    </httpSample>
+    <httpSample t="67" it="0" lt="67" ct="41" ts="1538397493230" s="true" lb="32 /Auth/LogOff-2" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="1187" sby="1074" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?fbc=c1VuaXF1ZUlECTIwMTgxMDAxMTIzMjEyLTM1LjE2OC4yNy40Mi03MGpkbmgyYTRzCTAxLzAxLzAwMDEgMDA6MDA6MDAKX19SZXF1ZXN0VmVyaWZpY2F0aW9uVG9rZW4JMlZOZ3JkSWpZSnAzb0NHcU9hSm1jVkJZVjliSGVlVEdwRVlHTWItaEZuSEl4Q0FOazZsR29ncG1TZlREZ1VhWmlXTG9WZWotdUVyclpwSUVzWGFKelJ0anVtTGhRNGlwTzVwTGs1MUduV1ExCTAxLzAxLzAwMDEgMDA6MDA6MDAKZmJUb2tlbglkbzA3cDBwYzc5ODBmcGNocm9vcjAyM2pkcTAycnYJMDEvMDEvMDAwMSAwMDowMDowMAptYW51c2NyaXB0U2l0ZUhpc3RvcnkJW2F1cmVhNTEubWFudXNjcmlwdC5jb21dCTAxLzAxLzAwMDEgMDA6MDA6MDAKZmJUb2tlbglkbzA3cDBwYzc5ODBmcGNocm9vcjAyM2pkcTAycnYJMDEvMDEvMDAwMSAwMDowMDowMAo%3D</java.net.URL>
+    </httpSample>
+    <httpSample t="333" it="0" lt="332" ct="37" ts="1538397493298" s="true" lb="32 /Auth/LogOff-3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3883" sby="563" ng="1" na="1">
+      <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?nr=</java.net.URL>
+    </httpSample>
+    <httpSample t="126" it="0" lt="126" ct="55" ts="1538397493635" s="true" lb="32 /Auth/LogOff-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9209" sby="900" ng="1" na="1">
+      <httpSample t="126" it="0" lt="126" ct="55" ts="1538397493635" s="true" lb="32 /Auth/LogOff-0" rc="200" rm="OK" tn="" dt="text" by="9209" sby="900" ng="0" na="0">
+        <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+      </httpSample>
+      <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.kilnhg.com/Auth/LogOn?nr=</java.net.URL>
+  </httpSample>
+  <httpSample t="196" it="0" lt="196" ct="38" ts="1538397493762" s="true" lb="33 /Login/Kiln" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9213" sby="890" ng="1" na="1">
+    <httpSample t="196" it="0" lt="196" ct="38" ts="1538397493762" s="true" lb="33 /Login/Kiln-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9213" sby="890" ng="1" na="1">
+      <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://aurea51.manuscript.com/Login/Kiln?dest=https%3a%2f%2faurea51.kilnhg.com%2f&amp;destFailure=https%3a%2f%2faurea51.kilnhg.com%2fAuth%2fLogOn%3fReturnUrl%3dhttps%253a%252f%252faurea51.kilnhg.com%252f%26fFailure%3d1</java.net.URL>
+  </httpSample>
+</sample>
+
+</testResults>
