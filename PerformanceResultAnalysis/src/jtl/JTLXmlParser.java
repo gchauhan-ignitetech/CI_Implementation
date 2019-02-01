@@ -33,7 +33,7 @@ public class JTLXmlParser {
 			parser.parse(source);
 			
 			//populate the parsed users list in above created empty list; You can return from here also.
-			users = handler.getUsers();
+			users = handler.getSample();
 
 		} catch (SAXException e) {
 			// TODO Auto-generated catch block

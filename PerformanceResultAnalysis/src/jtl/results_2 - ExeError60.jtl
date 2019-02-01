@@ -270,7 +270,7 @@
     <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
   </httpSample>
 </sample>
-<sample t="1031" it="10008" lt="0" ct="0" ts="1538397351179" s="true" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+<sample t="1031" it="10008" lt="0" ct="0" ts="1538397351179" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
   <httpSample t="346" it="0" lt="346" ct="50" ts="1538397359673" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
     <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
   </httpSample>
@@ -334,7 +334,7 @@
     <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
   </httpSample>
 </sample>
-<sample t="1143" it="10010" lt="0" ct="0" ts="1538397413885" s="true" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+<sample t="1143" it="10010" lt="0" ct="0" ts="1538397413885" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
   <httpSample t="485" it="0" lt="484" ct="37" ts="1538397422378" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
     <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
   </httpSample>
@@ -398,7 +398,7 @@
     <java.net.URL>https://aurea51.kilnhg.com/Review/OpenReviews?sIdExclude=&amp;fkey=2c56fdc34dbd39509abceb207f46d195b7e285c3977f2e045b3f1f771a005e0d-dk899ejm4fhj04ohv2pdg110c7b388&amp;vcs=Hg&amp;ixRepo=477512&amp;_=1538064073554</java.net.URL>
   </httpSample>
 </sample>
-<sample t="851" it="10009" lt="0" ct="0" ts="1538397481008" s="true" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
+<sample t="851" it="10009" lt="0" ct="0" ts="1538397481008" s="false" lb="Click Start Review" rc="500" rm="Number of samples in transaction : 3, number of failing samples : 2" tn="Thread Group 1-1" dt="" by="12048" sby="2890" ng="1" na="1">
   <httpSample t="296" it="0" lt="292" ct="39" ts="1538397489502" s="false" lb="29 /Review/Create" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="4842" sby="1191" ng="1" na="1">
     <java.net.URL>https://aurea51.kilnhg.com/Review/Create</java.net.URL>
   </httpSample>

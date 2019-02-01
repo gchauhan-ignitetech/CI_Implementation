@@ -45,6 +45,11 @@ public class JTLParserHandler extends DefaultHandler
             {
             	sample.setlb(attributes.getValue("lb"));
             	sample.sett(Integer.parseInt(attributes.getValue("t")));
+            	if(attributes.getValue("s") != null && attributes.getValue("s").contains("true")) {
+            		sample.sets(0);
+            	} else {
+            		sample.sets(100);
+            	}
             }
             this.objectStack.push(sample);
         }
@@ -92,7 +97,7 @@ public class JTLParserHandler extends DefaultHandler
     }*/
     
     //Accessor for userList object
-    public ArrayList<Sampler> getUsers()
+    public ArrayList<Sampler> getSample()
     {
     	return sampleList;
     }
